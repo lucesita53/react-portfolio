@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
+import Projects from './Projects'
 
 class App extends Component {
-  constructor() {
-    super()
+  state = {
+    displayBio: false
+  }
 
-    this.state = { displayBio: false }
+  toggleDisplayBio = () => {
+    this.setState({
+      displayBio: !this.state.displayBio
+    })
   }
 
   render() {
@@ -18,8 +23,16 @@ class App extends Component {
             <p>I live in Cordoba, and code every day</p>
             <p>My favorite language is JavaScript, and I think React.js is awesome.</p>
             <p>Besides coding, I also love play videogames</p>
+            <button onClick={this.toggleDisplayBio}>Show less</button>
           </div>
-        ) : null}
+        ) : (
+          <div>
+            <button onClick={this.toggleDisplayBio}>Read more</button>
+          </div>
+        )}
+
+        <hr />
+        <Projects />
       </div>
     )
   }
