@@ -1,21 +1,21 @@
-import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.png'
+import BamboxLogo from '../assets/logo-color.svg'
+import UdemyReactReduxBootcamp from '../assets/Udemy-react-redux-bootcamp.png'
 import project3 from '../assets/project3.png'
 
 const PROJECTS = [
   {
     id: 1,
-    title: 'Example React Application',
-    description: 'A React App that I built, involving JS and core web dev concepts!',
-    link: 'https://github.com/15Dkatz/example',
-    image: project1
+    title: 'Bambox',
+    description: 'A React App that I contributed in Eureka Labs, involving JS and core web dev concepts!',
+    link: 'https://www.bambox.com.ar/',
+    image: BamboxLogo
   },
   {
     id: 2,
-    title: 'My API',
-    description: 'A REST API that I built from scratching with GET and POST requests!',
-    link: 'https://github.com/15Dkatz/example',
-    image: project2
+    title: 'My PROFILE',
+    description: 'Challenge to learn react and redux concepts, building an app',
+    link: 'https://www.udemy.com/react-redux-bootcamp',
+    image: UdemyReactReduxBootcamp
   },
   {
     id: 3,

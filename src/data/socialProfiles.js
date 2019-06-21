@@ -1,27 +1,27 @@
-import emailIcon from '../assets/email_icon.png';
-import githubIcon from '../assets/github_icon.png';
-import linkedinIcon from '../assets/linkedin_icon.png';
-import twitterIcon from '../assets/twitter_icon.png';
+import emailIcon from '../assets/email_icon.png'
+import githubIcon from '../assets/github_icon.png'
+import linkedinIcon from '../assets/linkedin_icon.png'
+import twitterIcon from '../assets/twitter_icon.png'
 
 const SOCIAL_PROFILES = [
   {
     id: 1,
-    link: 'mailto:dkcodehelper@gmail.com',
+    link: 'mailto:lucianam910@gmail.com',
     image: emailIcon
   },
   {
     id: 2,
-    link: 'https://github.com/15Dkatz',
+    link: 'https://github.com/lucesita53',
     image: githubIcon
   },
   {
     id: 3,
-    link: 'https://linkedin.com/in/david-katz-sf',
+    link: 'https://www.linkedin.com/in/luciana-moll-7661a810b/',
     image: linkedinIcon
   },
   {
     id: 4,
-    link: 'https://twitter.com/dkcodehelper',
+    link: 'https://twitter.com/',
     image: twitterIcon
   }
 ]
